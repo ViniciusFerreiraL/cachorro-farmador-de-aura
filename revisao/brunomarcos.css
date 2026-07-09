@@ -1,0 +1,13 @@
+#img1{
+    display: flex;
+    justify-content: center;
+}
+
+#img2{
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+    background-color: gray;
+}
