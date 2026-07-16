@@ -1,0 +1,13 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#img1{
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    background-color: gray;
+}
