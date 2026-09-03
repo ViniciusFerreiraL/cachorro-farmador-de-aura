@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Busca de CEP</h1>
+        <div class="busca">
+            <input type="text" id="cepInput" type="text" placeholder="000000-000" inputmode="numeric" maxlength="9">
+            <button id="btnBuscar"> Buscar</button>
+        </div>
+        <p id="erro" class="erro"></p>
+        <div class="resultado" id="resultado">
+            <p><strong>CEP:</strong> <span id="cep"></span></p>
+            <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+            <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+            <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+            <p><strong>Estado:</strong> <span id="estado"></span></p>
+        </div>
+    </div>
+</body>
+
+</html>

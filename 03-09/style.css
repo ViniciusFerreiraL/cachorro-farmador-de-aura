@@ -1,0 +1,47 @@
+.container{
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    
+} 
+
+body{
+    background-color: aquamarine;
+}
+
+#cep{
+    border-style: solid;
+    border-width: 2px;
+}
+
+#Logradouro{
+    border-style: solid;
+    border-width: 2px;
+}
+
+#Bairro{
+    border-style: solid;
+    border-width: 2px;
+}
+
+#Cidade{
+    border-style: solid;
+    border-width: 2px;
+}
+
+#Estado{
+    border-style: solid;
+    border-width: 2px;
+}
+
+h1 {
+  width: fit-content;
+  margin: 10px auto; 
+  border: 2px solid black;
+  padding: 8px 16px; 
+}
+
+.resultado{
+    display: none;
+}
